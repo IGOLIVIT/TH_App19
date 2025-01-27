@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="QuotesModel" representedClassName="QuotesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="qAuthor" optional="YES" attributeType="String"/>
+        <attribute name="qBCE" optional="YES" attributeType="String"/>
+        <attribute name="qCom" optional="YES" attributeType="String"/>
+        <attribute name="qQuote" optional="YES" attributeType="String"/>
+        <attribute name="qTog" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="qYear" optional="YES" attributeType="String"/>
+    </entity>
+</model>
