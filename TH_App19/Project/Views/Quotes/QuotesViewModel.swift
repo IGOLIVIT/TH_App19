@@ -23,6 +23,7 @@ final class QuotesViewModel: ObservableObject {
     @Published var isDetail: Bool = false
     @Published var isDelete: Bool = false
     @Published var isSettings: Bool = false
+    @Published var isDeleteAll: Bool = false
 
     @Published var qQuote: String = ""
     @Published var qAuthor: String = ""

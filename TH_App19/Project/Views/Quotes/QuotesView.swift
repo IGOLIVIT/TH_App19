@@ -227,7 +227,7 @@ struct QuotesView: View {
         })
         .sheet(isPresented: $viewModel.isSettings, content: {
             
-            SettingsView()
+            SettingsView(viewModel: viewModel)
         })
         .overlay(
             

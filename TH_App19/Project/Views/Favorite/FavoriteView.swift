@@ -190,7 +190,7 @@ struct FavoriteView: View {
         }
         .sheet(isPresented: $viewModel.isSettings, content: {
             
-            SettingsView()
+            SettingsView(viewModel: viewModel)
         })
     }
 }
