@@ -26,6 +26,11 @@
 		783F22A02D456BED00FAF642 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F229F2D456BED00FAF642 /* Array.swift */; };
 		783F22A22D456BF500FAF642 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F22A12D456BF500FAF642 /* CoreDataStack.swift */; };
 		783F22A42D456BFE00FAF642 /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F22A32D456BFE00FAF642 /* DateConvert.swift */; };
+		7874EDB32D5D3C32000119B4 /* Siedra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874EDB22D5D3C32000119B4 /* Siedra.swift */; };
+		7874EDB52D5D3C3C000119B4 /* Dueinj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874EDB42D5D3C3C000119B4 /* Dueinj.swift */; };
+		7874EDB72D5D3C43000119B4 /* Whirpol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874EDB62D5D3C43000119B4 /* Whirpol.swift */; };
+		7874EDBA2D5D3CFB000119B4 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874EDB92D5D3CFB000119B4 /* U1.swift */; };
+		7874EDBC2D5D3D04000119B4 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874EDBB2D5D3D04000119B4 /* Review.swift */; };
 		789993FB2D47CC310013B0C9 /* AddQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789993FA2D47CC310013B0C9 /* AddQuotes.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +56,11 @@
 		783F229F2D456BED00FAF642 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		783F22A12D456BF500FAF642 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		783F22A32D456BFE00FAF642 /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
+		7874EDB22D5D3C32000119B4 /* Siedra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siedra.swift; sourceTree = "<group>"; };
+		7874EDB42D5D3C3C000119B4 /* Dueinj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dueinj.swift; sourceTree = "<group>"; };
+		7874EDB62D5D3C43000119B4 /* Whirpol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whirpol.swift; sourceTree = "<group>"; };
+		7874EDB92D5D3CFB000119B4 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		7874EDBB2D5D3D04000119B4 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		789993FA2D47CC310013B0C9 /* AddQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +126,7 @@
 		783F22792D456B3F00FAF642 /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				7874EDB82D5D3CF2000119B4 /* U */,
 				783F227F2D456B5C00FAF642 /* OB */,
 				783F227E2D456B5700FAF642 /* Loading */,
 				783F227D2D456B5200FAF642 /* Launch */,
@@ -138,6 +149,9 @@
 				783F229F2D456BED00FAF642 /* Array.swift */,
 				783F22A12D456BF500FAF642 /* CoreDataStack.swift */,
 				783F22A32D456BFE00FAF642 /* DateConvert.swift */,
+				7874EDB22D5D3C32000119B4 /* Siedra.swift */,
+				7874EDB42D5D3C3C000119B4 /* Dueinj.swift */,
+				7874EDB62D5D3C43000119B4 /* Whirpol.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,6 +225,15 @@
 				783F229B2D456BDC00FAF642 /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		7874EDB82D5D3CF2000119B4 /* U */ = {
+			isa = PBXGroup;
+			children = (
+				7874EDB92D5D3CFB000119B4 /* U1.swift */,
+				7874EDBB2D5D3D04000119B4 /* Review.swift */,
+			);
+			path = U;
 			sourceTree = "<group>";
 		};
 		789993F92D47CC280013B0C9 /* AddQuotes */ = {
@@ -293,10 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				783F226C2D456B0300FAF642 /* ContentView.swift in Sources */,
+				7874EDB72D5D3C43000119B4 /* Whirpol.swift in Sources */,
+				7874EDBA2D5D3CFB000119B4 /* U1.swift in Sources */,
 				783F228A2D456B9F00FAF642 /* LoadingView.swift in Sources */,
 				783F22A42D456BFE00FAF642 /* DateConvert.swift in Sources */,
 				783F22942D456BBD00FAF642 /* QuotesView.swift in Sources */,
 				783F229A2D456BD500FAF642 /* ArticlesView.swift in Sources */,
+				7874EDB52D5D3C3C000119B4 /* Dueinj.swift in Sources */,
+				7874EDB32D5D3C32000119B4 /* Siedra.swift in Sources */,
 				783F22962D456BC500FAF642 /* QuotesViewModel.swift in Sources */,
 				783F22882D456B9100FAF642 /* CoreModel.xcdatamodeld in Sources */,
 				783F22A02D456BED00FAF642 /* Array.swift in Sources */,
@@ -305,6 +332,7 @@
 				783F22922D456BB400FAF642 /* TabBar.swift in Sources */,
 				783F228C2D456BA500FAF642 /* R1.swift in Sources */,
 				783F22902D456BAE00FAF642 /* R3.swift in Sources */,
+				7874EDBC2D5D3D04000119B4 /* Review.swift in Sources */,
 				783F226A2D456B0300FAF642 /* TH_App19App.swift in Sources */,
 				783F228E2D456BAA00FAF642 /* R2.swift in Sources */,
 				783F229C2D456BDC00FAF642 /* SettingsView.swift in Sources */,
@@ -456,7 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -495,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
